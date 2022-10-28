@@ -9,6 +9,14 @@ variable "prefix" {
   description = "This prefix will be included in the name of most resources."
 }
 
+variable "bucket" {
+  default = "my-s3-bucket"
+}
+
+variable "bucket_prefix" {
+  default = "jinwoongkim"
+}
+
 variable "region" {
   description = "The region where the resources are created."
   default     = "us-east-1"
