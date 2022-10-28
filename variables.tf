@@ -10,7 +10,7 @@ variable "prefix" {
 }
 
 variable "bucket" {
-  default = "jinwoongkim-isv-s3-bucket"
+  default = "jinwoongkim-isv-s3-bucket2323"
 }
 
 variable "bucket_prefix" {
